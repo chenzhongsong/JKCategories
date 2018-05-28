@@ -1,5 +1,5 @@
 //
-//  NSDateDemoViewController.h
+//  UITextFieldDemoViewController.h
 //  JKCategories (https://github.com/shaojiankui/JKCategories)
 //
 //  Created by Jakey on 15/3/29.
@@ -7,7 +7,8 @@
 //
 
 #import "BaseViewController.h"
-#import "NSDate+JKReporting.h"
-@interface NSDateDemoViewController : BaseViewController
+
+@interface UITextFieldDemoViewController : BaseViewController
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
